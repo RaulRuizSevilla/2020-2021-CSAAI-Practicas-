@@ -1,3 +1,0 @@
-Este es un archivo temporal
-que voy a borrar para aprender
-a eliminar ficheros de repositorios
