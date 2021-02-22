@@ -10,3 +10,4 @@ Introduciéndome en VSCode
 ******************************************
 **  Mi tercer cambio, sigo siendo Raúl....
 ******************************************                                               
+![](Ejercicio2-img1.gif)
