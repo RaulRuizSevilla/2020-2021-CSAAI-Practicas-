@@ -1,0 +1,13 @@
+/* Ejemplo de hoja de estilo 2 */
+/* Selección por etiqueta */
+body {
+    background-color: thistle;
+    color: black;
+}
+h1 {
+    background-color: yellow;
+    color: tomato;
+}
+p {
+    background-color: orangered;
+}
