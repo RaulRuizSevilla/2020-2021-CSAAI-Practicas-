@@ -1,0 +1,21 @@
+/* Ejemmplo de hoja de estilo 3 */
+/* Selección por identificador único */
+p {
+    background-color: palegoldenrod;
+    color: purple;
+}
+h1 {
+    background-color: red;
+    color: black;
+}
+body {
+    background-color: cadetblue;
+    color: black;
+}
+/* Estilo para un párrafo en especial que
+queramos cambiar su estilo con respecto
+al resto de los párrafos */
+#especial {
+    background-color: chartreuse;
+    color: darkblue;
+}
