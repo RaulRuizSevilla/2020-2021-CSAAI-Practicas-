@@ -1,0 +1,13 @@
+/* Ejemplo de hoja de estilo 4 */
+/* Selección por grupos */
+body {
+    background-color: lightskyblue;
+    color: black;
+}
+.migrupo {
+    background-color: blue;
+    color: white;
+}
+p {
+    background-color: orange;
+}
