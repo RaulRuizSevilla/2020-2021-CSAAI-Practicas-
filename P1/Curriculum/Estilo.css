@@ -1,0 +1,167 @@
+/* En esta hoja de estilo externa
+voy a dar color,margen,bordes, y relleno
+a todo mi currículum  */
+
+body {
+    background-color: lightskyblue;
+    margin: 0px;
+    border: solid;
+    border-color: black;
+}
+/* Estos son todos los párrafos del currículum
+en general */
+p {
+    background-color: white;
+    color: black;
+    margin: 15px;
+    margin-right: 700px;
+    margin-top: 0px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+    border: solid;
+    padding: 15px;
+}
+/* Esta es la imagen del CV */
+img {
+    border: solid;
+    color: black;
+    margin: 50px;
+    margin-left: 750px;
+    width: 300px;
+    height: 370px;
+    margin-top: -200px;
+}
+/* Utilizo un identificador único para el nombre*/
+#Nombre{
+    background-color: black;
+    color: white;
+    border: yellow;
+    margin: 30px;
+    padding-left: 500px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 500px;
+    border-style:solid;
+    font-style:unset;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 20px;
+}
+/* He tenido que usar otro identificador único para poder
+cuadrar todo en el currículum ya que he intentado que todos
+los bloques principales (nombre, datos personales, formación
+académica, etc, estén en un mismo grupo mediante . y class pero
+se me descuadra la colocación de los bloques*/
+#datospers {
+    background-color: black;
+    color: white;
+    margin: 100px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 15px;
+    margin-right: 700px;
+    padding: 10px;
+    border:solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#form_acad {
+    background-color: black;
+    color: white;
+    margin: 100px;
+    margin-top: -220px;
+    margin-bottom: 2px;
+    margin-left: 15px;
+    margin-right: 700px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Lista desordenada de mi formación académica */
+ul {
+    background-color: white;
+    color: black;
+    margin: 15px;
+    margin-top: 0px;
+    margin-right: 700px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+    border: solid;
+    padding: 20px;
+}
+#idiomas {
+    background-color: black;
+    color: white;
+    margin: 100px;
+    margin-top: 25px;
+    margin-bottom: 2px;
+    margin-left: 15px;
+    margin-right: 700px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#informatica {
+    background-color: black;
+    color: white;
+    margin: 100px;
+    margin-top: 25px;
+    margin-bottom: 2px;
+    margin-left: 15px;
+    margin-right: 700px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#exp_personal {
+    background-color: black;
+    color: white;
+    margin: 100px;
+    margin-top: -355px;
+    margin-bottom: 300px;
+    margin-left: 700px;
+    margin-right: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* He tenido que crear un grupo para los párrafos a la derecha 
+ya que siguiendo las medidas del párrafo general me saldría 
+todo a la izquierda. */
+.parrafo_der {
+    background-color: white;
+    color: black;
+    margin: 15px;
+    margin-right: 15px;
+    margin-left: 700px;
+    margin-top: -300px;
+    margin-bottom: 300px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+    border: solid;
+    padding: 10px;
+}
+
+#datos_interes {
+    background-color: black;
+    color: white;
+    margin: 100px;
+    margin-top: -270px;
+    margin-bottom: 300px;
+    margin-left: 700px;
+    margin-right: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* He tenido que crear una lista con un identificador único ya que 
+la lista desordenada (ul) por defecto me salía a la izquierda */
+#lista_der {
+    background-color: white;
+    color: black;
+    margin: 15px;
+    margin-right: 15px;
+    margin-left: 700px;
+    margin-top: -300px;
+    margin-bottom: 15px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+    border: solid;
+    padding: 20px;
+}
+ 
