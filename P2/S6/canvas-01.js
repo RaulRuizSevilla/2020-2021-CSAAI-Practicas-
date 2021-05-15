@@ -3,7 +3,7 @@ console.log ("Ejecutando JS...");
 const canvas = document.getElementById ("canvas");
 
 /* Definimos el tamaño del canvas */
-canvas.width = 300;
+canvas.width = 200;
 canvas.height = 100;
 
 /* Obtener el contexto del canvas */
@@ -13,18 +13,17 @@ const ctx = canvas.getContext("2d");
 y closePath() */
 
 ctx.beginPath();
-/* Rectángulo de 100*50, cuya esquina superior izquierda es (5,5) */
-  ctx.rect(5,5, 100, 50);
+  /*  Dibujar un circulo: coordenadas x,y del centro
+     Radio, Angulo inicial y angulo final */
+    ctx.arc(100, 50, 10, 0, 2 * Math.PI);
+    ctx.strokeStyle = 'blue';
+    ctx.lineWidth = 3;
+    ctx.fillStyle = 'yellow';
 
-/* Color de relleno del rectángulo */
-  ctx.fillStyle = 'red';
+  /*  Dibujar el trazo */
+    ctx.stroke()
 
-/* //-- Cambiar el tamaño de la linea del trazo */
-ctx.lineWidth = 4;
-
-/* Mostrar el relleno */
-  ctx.fill();
-
-/* Mostrar trazo del rectángulo */
-  ctx.stroke();
-ctx.closePath();
+   /* Dibujar el relleno */
+    ctx.fill()
+    
+ctx.closePath()
