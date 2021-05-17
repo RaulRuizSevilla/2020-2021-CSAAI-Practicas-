@@ -19,6 +19,9 @@ ctx.beginPath();
  /* Color de relleno del rectángulo */
   ctx.fillStyle = 'red';
 
+/* Cambiar el tamaño de la linea del trazo */
+  ctx.lineWidth = 4;
+
 /*  Mostrar el relleno */
   ctx.fill();
 
