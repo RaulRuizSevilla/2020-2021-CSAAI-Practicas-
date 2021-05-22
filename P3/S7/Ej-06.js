@@ -16,4 +16,4 @@ click.onclick = () => {
 what.onclick = () => {
   what_sound.currentTime = 0;
   what_sound.play();
-}
+} 
